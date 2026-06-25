@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AWS & Project Specific
+.env
+*.env
+config.ini
+credentials
+.aws/
+
+# FRED API Keys
+secrets.py
+config.py
+
+# Lambda deployment packages
+*.zip
+layer/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data files (never commit raw data)
+*.json
+*.parquet
+*.csv
+data/
