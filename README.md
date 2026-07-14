@@ -22,7 +22,7 @@ along the way.
 
 ## Architecture
 
-*(See diagram below)*
+![Architecture Diagram](docs/architecture.png)
 
 ## Tech Stack
 
