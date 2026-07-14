@@ -94,3 +94,7 @@ Parquet (columnar format reduces data scanned). Glue Crawler runs are triggered
 manually rather than on a schedule.
 
 ## Repository Structure
+
+## License
+
+MIT
