@@ -95,6 +95,20 @@ manually rather than on a schedule.
 
 ## Repository Structure
 
+```
+fred-economic-pipeline/
+├── README.md
+├── .gitignore
+├── LICENSE
+├── lambda/
+│   ├── fred_ingest.py        # Pulls 4 FRED series → raw JSON → S3
+│   └── fred_transform.py     # Flattens JSON → Parquet → S3 processed
+├── athena/
+│   └── sample_queries.sql    # Example queries against fred_processed_db
+└── docs/
+    └── architecture.png      # End-to-end pipeline diagram
+```
+
 ## License
 
 MIT
