@@ -51,10 +51,10 @@ along the way.
 - [x] Lambda transformation function (`fred-transform`) — JSON → Parquet via PyArrow
 - [x] Glue Crawler cataloging processed data into `fred_processed_db`
 - [x] Athena queries running against cataloged data
+- [x] Lambda source code pushed to this repo
+- [x] Architecture diagram
 
 **In Progress:**
-- [ ] Lambda source code pushed to this repo
-- [ ] Architecture diagram
 - [ ] Deeper Athena analysis queries
 
 **Planned:**
