@@ -58,7 +58,7 @@ along the way.
 - [ ] Deeper Athena analysis queries
 
 **Planned:**
-- [ ] AWS Data Engineer Associate exam prep
+- [ ] AWS Solutions Architect - Professional exam prep
 - [ ] Expanded economic series coverage
 - [ ] Analysis notebook
 
