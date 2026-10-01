@@ -2,7 +2,7 @@
 
 A serverless AWS data pipeline that automatically ingests, transforms, and catalogs 
 economic indicators from the Federal Reserve Economic Data (FRED) API — built as a 
-hands-on cloud engineering project targeting the AWS Data Engineer Associate certification.
+hands-on cloud engineering project targeting the AWS Solutions Architect - Professional certification.
 
 ## Overview
 
