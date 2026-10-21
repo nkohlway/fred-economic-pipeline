@@ -69,13 +69,13 @@ A Glue ETL job was attempted for the transformation step, but abandoned after pe
 `IllegalArgumentException: Can not create a Path from an empty string` errors that 
 survived multiple fresh job attempts. The root cause was likely a missing `default` 
 Glue database or Spark warehouse configuration issue. Lambda with the AWSSDKPandas 
-layer was chosen as the pragmatic replacement — simpler to debug, faster to iterate, 
+layer was chosen as the pragmatic replacement because it is simpler to debug, faster to iterate, 
 and appropriate for this data volume. The Glue ETL job is retained in the account for 
 reference.
 
 **EventBridge async invocation**
 Lambda destinations for automatic function chaining require asynchronous invocation. 
-EventBridge satisfies this; the manual Lambda Test button does not — an important 
+EventBridge satisfies this; the manual Lambda Test button does not, which is an important 
 distinction when debugging chained functions.
 
 **EC2 free tier expiry**
@@ -83,7 +83,7 @@ This account is past 12 months, so EC2 compute and public IPv4 usage are billed 
 on-demand rates. The development instance is stopped between sessions to manage costs.
 
 **IMDSv2**
-The EC2 instance requires token-based metadata requests (IMDSv2) — relevant when 
+The EC2 instance requires token-based metadata requests (IMDSv2), which are relevant when 
 configuring the CloudWatch agent and SSM.
 
 ## Cost Management
