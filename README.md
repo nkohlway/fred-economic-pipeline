@@ -9,7 +9,7 @@ hands-on cloud engineering project targeting the AWS Solutions Architect - Profe
 This project pulls four economic time-series from FRED on a weekly Friday schedule, 
 lands raw JSON in S3, transforms it into Parquet, catalogs it with Glue, and exposes 
 it for SQL analysis via Athena. It was built incrementally to gain real hands-on AWS 
-experience — debugging IAM permissions, Lambda layers, and Glue crawler configuration 
+experience such as debugging IAM permissions, Lambda layers, and Glue crawler configuration 
 along the way.
 
 **FRED Series tracked:**
